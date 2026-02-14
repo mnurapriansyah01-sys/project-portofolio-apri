@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhammad Nur Apriansyah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Halo, Saya <span>Muhammad Nur Apriansyah</span></h1>
+        <p>Web Developer | Frontend Enthusiast</p>
+        <button onclick="scrollToSection('contact')">Hire Me</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <p>Nama saya Apriansyah saya adalah seorang pelajar yang bersekolah di SMKN 04 Kota Bekasi dengan jurusan Teknik Komputer dan Jaringan, saya adalah seorang web develop pemula
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <h2>Keahlian</h2>
+        <div class="skill-list">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Project Saya</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Website Company Profile</h3>
+                <p>Website bisnis modern dengan desain profesional.</p>
+            </div>
+            <div class="project-card">
+                <h3>Landing Page Produk</h3>
+                <p>Landing page dengan optimasi konversi tinggi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Kontak</h2>
+        <p>Email: mnur.apriansyah01@email.com</p>
+        <p>WhatsApp: 081383896874</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Muhammad Nur Apriansyah | All Rights Reserved</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
